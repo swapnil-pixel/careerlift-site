@@ -1,0 +1,123 @@
+/* Apply Poppins font */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+/* Section spacing */
+section {
+  padding: 60px 0;
+}
+
+/* Hero section with background image and overlay */
+.hero-section {
+  min-height: 60vh;
+  background: 
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('images/pexels-goumbik-590016.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+}
+
+.hero-section p {
+  font-size: 1.25rem;
+}
+
+/* Button hover animation */
+.btn-success {
+  background-color: #198754;
+  border-color: #198754;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-success:hover {
+  background-color: #157347;
+  box-shadow: 0 0 12px rgba(25, 135, 84, 0.5);
+}
+
+/* Subtle background pattern for light sections */
+.bg-light {
+  background: linear-gradient(135deg, #f9f9f9 25%, #ffffff 100%);
+}
+
+/* Bootstrap icons styling */
+i.bi {
+  color: #198754;
+  font-size: 1.3rem;
+}
+
+/* Card enhancements for service and pricing */
+.service-card,
+.pricing-card {
+  transition: all 0.3s ease;
+  background-color: white;
+}
+
+.service-card:hover,
+.pricing-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+}
+
+/* Footer styling */
+footer {
+  background-color: #f8f9fa;
+  color: #6c757d;
+  padding: 15px 0;
+  font-size: 0.9rem;
+}
+
+/* Colored cards */
+.service-card {
+  background: #e9f5ee; /* light green */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(25, 135, 84, 0.2);
+}
+
+/* Pricing cards */
+.pricing-card {
+  background: #f0f8ff; /* light blue */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pricing-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 20px rgba(0, 123, 255, 0.2);
+}
+
+/* Blog card hover effect */
+#blogs .border:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transform: translateY(-4px);
+  transition: 0.3s ease-in-out;
+}
+
+/* Service & Pricing card hover effect */
+.service-card:hover,
+.price-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
