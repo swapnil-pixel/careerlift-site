@@ -120,4 +120,33 @@ html {
   scroll-behavior: smooth;
 }
 
+/* FAQ accordion spacing and clarity */
+#faq .accordion-item {
+  background-color: #fdfdfd;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+#faq .accordion-button {
+  background-color: #f0f0f0;
+  font-size: 1rem;
+  padding: 1rem 1.25rem;
+  color: #212529;
+}
+
+#faq .accordion-button:focus {
+  box-shadow: none;
+}
+
+#faq .accordion-button:not(.collapsed) {
+  background-color: #198754;
+  color: white;
+}
+
+#faq .accordion-body {
+  background-color: #ffffff;
+  padding: 1rem 1.25rem;
+  font-size: 0.95rem;
+  border-top: 1px solid #e9ecef;
+}
 
